@@ -20,13 +20,6 @@ export default async function Home() {
               key={item.name}
               className="overflow-hidden rounded-md text-nowrap"
             >
-              {/* <Image
-                src={item.name}
-                alt={item.name}
-                className="transition-all duration-500 hover:scale-110 hover:-rotate-2"
-                width={500}
-                height={500}
-              /> */}
               {item.name}
             </Link>
           )

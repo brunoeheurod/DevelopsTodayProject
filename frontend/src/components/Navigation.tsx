@@ -1,7 +1,5 @@
 import { Container } from "@/components/Container"
 import Link from 'next/link'
-import Image from 'next/image'
-import FeatherIcon from "feather-icons-react"
 
 export const Navigation = () => {
     return (
