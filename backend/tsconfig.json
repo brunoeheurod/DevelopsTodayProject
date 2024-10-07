@@ -11,10 +11,10 @@
       "skipLibCheck": true
     },
     "include": [
-      "./*.js",
+     
       "src/**/*.ts",
       "test/**/*.ts",
     ],
-    "exclude": ["node_modules"],
+    "exclude": ["node_modules", "frontend"],
     "typeRoots": ["./node_modules/@types", "./src/types"]
   }

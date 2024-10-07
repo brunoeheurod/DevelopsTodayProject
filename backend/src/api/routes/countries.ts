@@ -1,6 +1,4 @@
-import { Router, Request, Response } from 'express';
-import axios from 'axios';
-import AvailableCountriesResponse from '../../types/available-countries.response';
+import { Router } from 'express';
 import { getCountries } from '../controllers/get-countries';
 import getCountryInfo from '../controllers/get-country-info';
 const router = Router();
