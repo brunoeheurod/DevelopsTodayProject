@@ -4,7 +4,7 @@
 
 ## Description
 
-DevelopsToday -Countries List is a full-stack application created as part of a test assessment. The project involves building two small applications that provide information about countries. It includes a Backend (BE) developed with Node.js (using Express) and a Frontend (FE) built with with Next.js. This structure allows users to easily access and interact with a variety of country-related data.
+DevelopsToday - Countries List is a full-stack application created as part of a test assessment. The project involves building two small applications that provide information about countries. It includes a Backend (BE) developed with Node.js (using Express) and a Frontend (FE) built with with Next.js. This structure allows users to easily access and interact with a variety of country-related data.
 
 ## Table of Contents
 
