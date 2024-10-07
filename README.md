@@ -11,8 +11,6 @@ DevelopsToday -Countries List is a full-stack application created as part of a t
 - [Installation](#installation)
 - [Usage](#usage)
 - [Scripts](#scripts)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
