@@ -1,0 +1,16 @@
+{
+  "name": "developstoday",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "install": "npm install && npm install --prefix frontend && npm install --prefix backend"
+  },
+  "keywords": [],
+  "author": "Bruno Rodrigues",
+  "license": "MIT",
+  "description": "Full Stack Countries Project",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
