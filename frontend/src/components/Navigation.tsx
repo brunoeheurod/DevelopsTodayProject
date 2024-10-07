@@ -9,13 +9,6 @@ export const Navigation = () => {
           <Link href="/">
           <h2 className="text-4xl font-extrabold dark:text-white">Countries List</h2>
           </Link>
-          {/* <Link
-            href="/quiz"
-            className="flex items-center justify-center gap-1 px-5 font-semibold text-black transition-colors bg-green-500 rounded-md duration-600 hover:bg-green-600"
-          >
-            <FeatherIcon icon="arrow-right" />
-            Take a Quiz
-          </Link> */}
         </Container>
      
     )
