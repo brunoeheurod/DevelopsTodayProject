@@ -10,6 +10,7 @@ DevelopsToday -Countries List is a full-stack application created as part of a t
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Endpoints](#endpoints)
 - [Scripts](#scripts)
 
 ## Installation
@@ -35,11 +36,23 @@ This will use `concurrently` to run the development scripts located in the respe
 - **Frontend:** `npm run dev --prefix frontend`
 - **Backend:** `npm run dev --prefix backend`
 
+### Accessing the Application
+
+- The frontend application will be available at [http://localhost:3000](http://localhost:3000).
+- The backend API will be available at [http://localhost:5000/api](http://localhost:5000/api).
+
+## Endpoints
+
+The backend provides the following endpoints:
+
+- **Get all countries**:  
+  `GET http://localhost:5000/api/countries`
+
+- **Get country by code**:  
+  `GET http://localhost:5000/api/country/:countryCode`  
+  (Replace `:countryCode` with the specific country code (Iso2 format) you wish to query.)
+
 ## Scripts
 
 - **dev**: Runs the development server for both frontend and backend.
 - **install**: Installs dependencies for the main project, frontend, and backend.
-
-
-
-
